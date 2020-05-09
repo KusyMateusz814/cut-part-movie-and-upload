@@ -1,5 +1,6 @@
 #!/bin/bash
 
+source venv/bin/python
 ./rmNeedless.sh #usuwa zastane pliki mp4 etc
 link_to_yt="$1"
 output_name="$2"
